@@ -1,0 +1,26 @@
+body {
+    height: 100dvh;
+    display: grid;
+    place-items: center;
+}
+
+/* Styling af link, så det ligner en knap */
+
+.knap {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    background-color: #bae;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+.knap a:link,
+.knap a:visited {
+    color: #fff;
+}
+
+.knap a:hover {
+    color: #000;
+    background-color: #abe;
+}

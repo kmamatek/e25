@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: circle;
+    /* none, disc (default), circle m.fl. */
+}
+
+ol {
+    list-style-type: upper-latin;
+    /* upper-latin, lower-latin, decimal (default), decimal-leading-zero m.fl. */
+}
+
+dl {
+    border: 2px solid #abe;
+    padding: .5em;
+    background-image: url(dark-bg.jpg);
+}
+
+dt {
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 3px;
+    background-color: rgb(241, 221, 226);
+}
+
+dd {
+    margin: 0;
+    padding: 2px .5em .5em;
+    color: aliceblue;
+}

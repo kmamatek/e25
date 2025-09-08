@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(229, 167, 167);
+}
+
+h1,
+h2 {
+    border: 3px solid #fdd;
+    padding: .5em;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #0ff;
+}
+
+p {
+    color: blueviolet;
+    margin-top: 1.5em;
+}

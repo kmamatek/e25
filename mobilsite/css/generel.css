@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/montserrat-variablefont_wght-webfont.woff2);
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/opensans-variablefont_wdthwght-webfont.woff2);
+}
+
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Generel styling */
+
+body {
+  font-family: "Open Sans", Verdana, sans-serif;
+  margin: 0;
+}
+
+/* Navigations links */
+
+nav li a {
+  display: block;
+  padding: 0.5em;
+  font-weight: bolder;
+}
+
+nav li a:hover {
+  background-color: #abe;
+  color: #000;
+}
+
+/* sideindhold generelt */
+
+header {
+  background-color: #bea;
+}
+
+main {
+  max-width: 1000px;
+  /* margin: 0 auto; */
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 1em;
+}
+
+footer {
+  text-align: center;
+  background-color: #bae;
+  padding: 5px;
+}
+
+/* Links LoVeHAte */
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+a:hover {
+  color: aqua;
+}
+
+a:active {
+  color: yellow;
+}
+
+h1,
+h2,
+h3,
+dt {
+  font-family: "Montserrat", Arial, sans-serif;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 1.5rem 0 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
+  background-color: black;
+  margin: 30px 0 30px;
+  /* 👆 tre værdier: top højre/venstre bund*/
+  padding: 5px 15px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: .8em 0 0;
+  padding: 5px 15px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: .4rem 1em .2rem;
+}
+
+dl {
+  padding: 1rem;
+}
+
+dt {
+  font-size: 1.5rem;
+  margin: 1em 0 .5em
+}
+
+figure {
+  margin: 1em;
+}
+
+figcaption {
+  margin-top: .5em;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.cta-knap {
+  display: inline-block;
+  margin: 0.5em auto 0.5em clamp(0.1em, 10%, 5em);
+  /*clamp(min value, preferred value, max value)*/
+  padding: 0.8em;
+  font-size: 1.3em;
+  border-radius: 0.3em;
+  background-color: #abe;
+}

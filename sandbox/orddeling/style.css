@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Coolvetica';
+    src: url(fonts/coolvetica.woff);
+}
+
+/* Orddeling */
+body {
+    hyphens: auto;
+    /* Automatisk orddeling på understøttede browsere */
+    word-break: break-word;
+    /* Bryd lange ord ved behov */
+    text-wrap: balance;
+}
+
+h1 {
+    line-height: 1em;
+}
+
+p {
+    font-family: 'Coolvetica', Tahoma, sans-serif;
+    line-height: 1.5em;
+}

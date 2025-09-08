@@ -1,0 +1,40 @@
+* {
+    /* outline: 2px dashed red; */
+}
+
+body {
+    margin: 0;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: .5em 1.5em;
+    /* top/bund højre/venstre */
+    display: flex;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+/* LoVeHAte */
+
+nav li {
+    padding: .5em 1em
+}
+
+nav a:link {
+    background-color: white;
+    padding: 1em;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #fff;
+}
+
+
+ul {
+    list-style-type: circle;
+}
